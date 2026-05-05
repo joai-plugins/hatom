@@ -1,0 +1,38 @@
+{
+  "name": "joai-hatom",
+  "version": "0.3.0",
+  "description": "Connect Hatom to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/hatom",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "hatom"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Hatom by JoAi",
+    "shortDescription": "Connect Hatom to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "The pioneering, non-custodial liquidity protocol on MultiversX",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/hatom",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the Hatom tools available in this app.",
+      "Explain what setup or authentication Hatom needs before I run an action.",
+      "Use Hatom to help me with the task I describe next."
+    ]
+  }
+}
